@@ -1,0 +1,5 @@
+1) install docker from docker website
+2) open terminal in project folder
+3) in terminal type >> docker build -t electric .
+4) in terminal type >> docker run -p 8501:8501 electric
+5) in browser enter url http://localhost:8501/
