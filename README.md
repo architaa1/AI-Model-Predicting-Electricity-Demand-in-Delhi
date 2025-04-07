@@ -37,27 +37,39 @@ This project uses machine learning to forecast electricity demand in Delhi based
 ### 1. Clone the Repository
 
 git clone https://github.com/architaa1/AI-Model-Predicting-Electricity-Demand-in-Delhi.git
+
 cd AI-Model-Predicting-Electricity-Demand-in-Delhi
+
 2. Install Dependencies
+
 Make sure Python and pip are installed. Then run:
 
 pip install -r requirements.txt
+
 If requirements.txt is not available, install manually:
 
 pip install pandas numpy scikit-learn xgboost streamlit
 
 3. Run the Application
+
 streamlit run frontend.py
+
 This will open the UI in your browser where you can input data and get predictions.
 
 🐳 Running with Docker
+
 1. Build the Docker Image
+
 docker build -t electricity-demand-predictor .
+
 2. Run the Container
+
 docker run -p 8501:8501 electricity-demand-predictor
+
 Visit http://localhost:8501 in your browser to interact with the model.
 
 📊 Model Evaluation
+
 The model is evaluated using the following metrics:
 
 Mean Squared Error (MSE)
