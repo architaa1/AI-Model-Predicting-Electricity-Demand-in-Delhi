@@ -2,7 +2,7 @@
 
 This project uses machine learning to forecast electricity demand in Delhi based on historical data. The model helps in energy planning by providing accurate predictions of future electricity consumption.
 
-Demo Video Lini: https://drive.google.com/file/d/1Z-Z5mBmer5xdiOA9K0zUYH7n8bFDeFrv/view?usp=sharing
+Demo Video Link : https://drive.google.com/file/d/1Z-Z5mBmer5xdiOA9K0zUYH7n8bFDeFrv/view?usp=sharing
 
 ## 📌 Features
 
